@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    text-decoration: none;
+    
+}
+/*content section start here */
+.content{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+/*content section end here */
+/*leftsidebar section start here*/
+.leftsidebar{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 4%;
+    background-color: azure;
+}
+.header{
+    width: 100%;
+    height: auto;
+}
+
+.img img{
+    width: 100%;
+}
+.address a{
+     display: block;
+    margin-bottom: 5px;
+    color: black;
+    
+}
+.address{
+   width: 100%;
+   background-color: gray;
+    padding: 10px;
+}
+.img h2{
+   position: absolute;
+    z-index: 1;
+    top: 60px;
+}
+.address a i{
+    margin-right: 5px;
+    color:blue;
+    
+    
+}
+.progessbar{
+    background-color: wheat;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+h4{
+    margin: 10px 0px;
+}
+.progress{
+    width: 100%;
+    height: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.pro{
+    width: 40%;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+}
+.text{
+    position: absolute;
+    width: 40%;
+    text-align: center;
+}
+.language{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: thistle;
+}
+.lbar{
+  width: 100%;
+  height: 24px;
+position: relative;
+    background-color: gray;
+    border-radius: 10px;   
+}
+
+.eng{
+    width: 90%;
+  height: 24px;
+position: absolute;
+    background-color: red;
+    border-radius: 10px; 
+}
+p{
+    margin: 10px;
+}
+/*leftsidebar section end here*/
+/* rightsidebaleftr section end here*/
+.rightsidebar{
+    width: 65%;
+    height: 100%;
+    float: left;
+   
+    
+    
+}
+/*rightsidebar section end here*/
+/* workexperiance section start here*/
+.workexperiance{
+    width: 98%;
+    margin-bottom: 4%;
+    
+    background-color: antiquewhite;
+    padding: 20px 25px;
+    
+    
+}
+.workexperiance a{
+   width: 100%;
+    font-size: 30px
+   
+   
+}
+
+.date button{
+    background-color: green;
+    color: wheat;
+}
+.date{
+    font-size: 25px;
+}
+
+/* workexperiance section end here*/
+/*education section start here*/
+.education{
+    width: 98%;
+    padding: 10px;
+    background-color: rosybrown;    
+}
+.time a i{
+    color: teal;
+}
+.education a{
+    font-size: 30px;
+    
+ }
+.education i{
+    color: blue;
+    margin-right: 10px;
+}
+
+.education p{
+    font-size: 20px;
+}
+/*education section end here*/
+/*footer section starthere*/
+.footer{
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    background-color: greenyellow;
+    padding: 20px 35px;
+    font-size: 25px;
+    text-align: center;
+   
+    
+}
+.footericons{
+    margin-top:50px;
+    margin-bottom: 30px;    
+}
+.footericons a{
+    padding: 10px 10px;
+    color: darkblue;
+}
+.text span{
+    text-decoration: underline;
+}
+
+/*footer section end here*/
+/*mediaquary start here*/
+@media only screen and (max-width:480px){
+   div.content div.leftsidebar, div.content div.rightsidebar{
+        width: 100%;
+    } 
+    div.content {
+        width: 100%;
+    }
+}
+/*mediaquary end here*/
+
+
